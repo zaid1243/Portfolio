@@ -74,4 +74,5 @@ export const CONTACT = {
   phoneNo: "+91 9370 5111 48",
   email: "skzaid8821@gmail.com",
   linkedin: "https://www.linkedin.com/in/zaid-shaikh-b09483255/",
+  portfolio: "https://zaid1243.github.io/Portfolio/",
 };

@@ -9,6 +9,7 @@ const Contact = () => {
         <p>{CONTACT.phoneNo}</p>
         <p>{CONTACT.email}</p>
         <p>{CONTACT.linkedin}</p>
+        <p>{CONTACT.portfolio}</p>
       </div>
     </div>
   );

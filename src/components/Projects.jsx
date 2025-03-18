@@ -30,6 +30,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
+                <h4 className="mt-2 text-purple-900"> {tech.link}</h4>
               </div>
             </div>
           </>

@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/home.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/IMG_20250305_145248[1].png";
 import project4 from "../assets/projects/project-4.jpg";
@@ -40,18 +40,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Home Rental Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Book Store App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Find your perfect home with ease! Explore rental listings, view details, and book your dream place effortlessly.",
+    technologies: ["React js", "HTML", "CSS", "javascript"],
+    link: "https://private-property-rental2.netlify.app/",
   },
   {
     title: "Portfolio Website",
@@ -59,6 +53,14 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "TailwindCSS"],
+    link: "https://zaid1243.github.io/Portfolio/",
+  },
+  {
+    title: "Book Store App",
+    image: project2,
+    description:
+      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
     title: "Blogging Platform",

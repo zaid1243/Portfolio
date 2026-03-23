@@ -3,6 +3,7 @@ import image from "./../assets/Zaid.jpeg";
 
 const Hero = () => {
   const scrollToSection = (id) => {
+    console.log("ee");
     const element = document.getElementById(id);
     if (element) {
       const yOffset = -80; // adjust for navbar height

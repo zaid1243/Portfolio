@@ -3,8 +3,10 @@ import image from "./../assets/Zaid.jpeg";
 
 const Hero = () => {
 const scrollToSection = (id) => {
+  console.log("hello")
   const element = document.getElementById(id);
   if (element) {
+    console.log("yes ele")
     element.scrollIntoView({ behavior: "smooth" });
   }
 };

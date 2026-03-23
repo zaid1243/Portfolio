@@ -37,9 +37,9 @@ const Hero = () => {
             {/* ✅ BUTTONS FIXED */}
             <div className="mt-6 flex gap-4 flex-wrap justify-center lg:justify-start relative z-[200]">
               <button
-                onClick={() => {
+                onClick={(e) => {
                   scrollToSection("projects");
-                  console.log("hello");
+                  console.log("hello", e);
                 }}
                 className="px-6 py-2 rounded-xl bg-gradient-to-r from-blue-500 to-white text-black font-medium shadow-lg hover:scale-105 transition duration-300"
               >

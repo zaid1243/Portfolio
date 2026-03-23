@@ -17,14 +17,7 @@ const App = () => {
         <div id="home">
   <Hero />
 </div>
-<button
-  onClick={() => {
-    alert("clicked");
-    console.log("clicked");
-  }}
->
-  Test
-</button>
+
 <div id="projects" className="scroll-mt-24">
   <Projects />
 </div>

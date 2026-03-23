@@ -18,24 +18,24 @@ const App = () => {
   <Hero />
 </div>
 
-<div id="projects">
+<div id="projects" className="scroll-mt-24">
   <Projects />
 </div>
 
-<div id="about">
+<div id="contact" className="scroll-mt-24">
+  <Contact />
+</div>
+
+<div id="about" className="scroll-mt-24">
   <About />
 </div>
 
-<div id="technologies">
+<div id="technologies" className="scroll-mt-24">
   <Technologies />
 </div>
 
-<div id="education">
+<div id="education" className="scroll-mt-24">
   <Education />
-</div>
-
-<div id="contact">
-  <Contact />
 </div>
       </div>
     </div>

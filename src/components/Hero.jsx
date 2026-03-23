@@ -2,10 +2,14 @@ import { HERO_CONTENT } from "./../constants/index";
 import image from "./../assets/Zaid.jpeg";
 
 const Hero = () => {
-  const scrollToSection = (id) => {
+const scrollToSection = (id) => {
   const element = document.getElementById(id);
   if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
+    const yOffset = -80;
+    const y =
+      element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
   }
 };
   return (

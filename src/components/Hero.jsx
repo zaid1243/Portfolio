@@ -2,6 +2,12 @@ import { HERO_CONTENT } from "./../constants/index";
 import image from "./../assets/Zaid.jpeg";
 
 const Hero = () => {
+  const scrollToSection = (id) => {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+};
   return (
     <div className="border-b border-gray-800 pb-10 lg:pb-32 mb-10 pt-5">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
@@ -28,13 +34,20 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="mt-6 flex gap-4 flex-wrap justify-center lg:justify-start">
-              <button className="px-6 py-2 rounded-xl bg-gradient-to-r from-blue-500 to-white text-black font-medium shadow-lg hover:scale-105 transition duration-300">
-                View Projects
-              </button>
-              <button className="px-6 py-2 rounded-xl border border-gray-600 hover:border-blue-500 text-gray-300 hover:text-white transition duration-300">
-                Contact Me
-              </button>
-            </div>
+  <button
+    onClick={() => scrollToSection("projects")}
+    className="px-6 py-2 rounded-xl bg-gradient-to-r from-blue-500 to-white text-black font-medium shadow-lg hover:scale-105 transition duration-300"
+  >
+    View Projects
+  </button>
+
+  <button
+    onClick={() => scrollToSection("contact")}
+    className="px-6 py-2 rounded-xl border border-gray-600 hover:border-blue-500 text-gray-300 hover:text-white transition duration-300"
+  >
+    Contact Me
+  </button>
+</div>
           </div>
         </div>
 

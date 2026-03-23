@@ -17,7 +17,11 @@ const App = () => {
 
       <div className="container mx-auto px-8 relative z-10">
         {/* ✅ IMPORTANT: IDs + scroll offset */}
-        <div id="home" className="scroll-mt-24">
+        <div
+          id="home"
+          className="scroll-mt-24"
+          onClick={() => console.log("hero clicked")}
+        >
           <Hero />
         </div>
 

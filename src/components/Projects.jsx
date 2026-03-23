@@ -2,7 +2,7 @@ import { PROJECTS } from "../constants";
 
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-800 pb-16" id="projects">
+    <div className="border-b border-neutral-800 pb-16">
       {/* HEADING */}
       <h1 className="text-4xl font-light text-center my-12">
         My{" "}

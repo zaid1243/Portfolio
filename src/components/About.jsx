@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       className="text-neutral-300 border-b border-neutral-800 pb-16"
-      id="about"
+     
     >
       {/* HEADING */}
       <h1 className="text-center my-10 text-4xl font-light">

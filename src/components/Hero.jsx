@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <div className="border-b border-gray-800 pb-10 lg:pb-32 mb-10 pt-20 relative z-10">
-      <Navbar />
+      
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
         {/* LEFT CONTENT */}
         <div className="w-full lg:w-1/2 relative z-[100]">

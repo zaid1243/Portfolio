@@ -16,8 +16,6 @@ const App = () => {
       </div>
 
       <div className="container mx-auto px-8 relative z-10">
-        <Navbar />
-
         {/* ✅ IMPORTANT: IDs + scroll offset */}
         <div id="home" className="scroll-mt-24">
           <Hero />

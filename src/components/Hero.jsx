@@ -14,7 +14,7 @@ const scrollToSection = (id) => {
     <div className="border-b border-gray-800 pb-10 lg:pb-32 mb-10 pt-5">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
         {/* LEFT CONTENT */}
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 relative z-10">  
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
             {/* Heading */}
             <h1 className="pb-4 text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight">
@@ -35,7 +35,7 @@ const scrollToSection = (id) => {
             </p>
 
             {/* CTA Buttons */}
-            <div className="mt-6 flex gap-4 flex-wrap justify-center lg:justify-start">
+            <div className="mt-6 flex gap-4 flex-wrap justify-center lg:justify-start relative z-20">
   <button
     onClick={() => scrollToSection("projects")}
     className="px-6 py-2 rounded-xl bg-gradient-to-r from-blue-500 to-white text-black font-medium shadow-lg hover:scale-105 transition duration-300"
@@ -54,7 +54,7 @@ const scrollToSection = (id) => {
         </div>
 
         {/* RIGHT IMAGE */}
-        <div className="w-full lg:w-1/2 flex justify-center">
+       <div className="w-full lg:w-1/2 flex justify-center relative z-0">
           <div className="relative group">
             {/* Glow */}
             <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-white rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-500 pointer-events-none"></div>

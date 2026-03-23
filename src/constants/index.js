@@ -2,6 +2,7 @@ import project1 from "../assets/projects/FOOD Delivery Thumbnail.png";
 import project2 from "../assets/projects/TODO-THUMBNAIL.png";
 import project3 from "../../public/Zaid.jpeg";
 import project4 from "../assets/projects/project-4.jpg";
+import interviewImg from "../assets/projects/interviewIq.png"; // ✅ ADD THIS
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -37,38 +38,50 @@ export const EXPERIENCES = [
     technologies: ["SSC Board 10th"],
   },
 ];
-
 export const PROJECTS = [
   {
-    title: "Food Delivery System | React & Redux",
+    title: "Interview IQ (AI Mock Interview Platform)",
+    image: interviewImg,
+    description:
+      "Built an AI-powered mock interview platform that analyzes resumes and generates personalized interview questions. Integrated AI-based evaluation to provide real-time feedback, scoring, and performance tracking with interview history.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "AI APIs"],
+    link: "https://ai-mern-interviewagent-frontend.onrender.com",
+    demo: "https://youtube.com/shorts/Qnvv6Yc5H7s?si=uRmSO12f1fFDMA7s",
+  },
+
+  {
+    title: "Food Delivery System",
     image: project1,
     description:
-      "Built a food delivery app with add-to-cart, quantity updates, item removal, and responsive UI. Designed scalable REST APIs with Node.js and MongoDB. Frontend deployed on GitHub Pages.",
-    technologies: ["React js", "HTML", "CSS", "javascript"],
+      "Built a full-stack food delivery app with cart management, quantity updates, and responsive UI. Designed scalable APIs using Node.js and MongoDB.",
+    technologies: ["React", "Redux", "Node.js", "MongoDB"],
     link: "https://zaid1243.github.io/Foodlo/",
   },
+
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "TailwindCSS"],
+      "Designed and developed a personal portfolio to showcase projects, skills, and contact details with responsive UI.",
+    technologies: ["React", "TailwindCSS", "HTML", "CSS"],
     link: "https://zaid1243.github.io/Portfolio/",
   },
+
   {
-    title: " React TODO CRUD App",
+    title: "React TODO CRUD App",
     image: project2,
     description:
-      "Created a full CRUD Todo app (add, edit, update, delete). Deployed on GitHub Pages with optimized build and reusable componentss.",
-    technologies: ["React", "Javascript"],
+      "Developed a full CRUD Todo application with add, edit, delete, and update functionality using reusable components.",
+    technologies: ["React", "JavaScript"],
     link: "https://zaid1243.github.io/TODO-CRUD-APP/",
   },
+
   {
     title: "Techie News",
     image: project4,
     description:
-      "Developed a fast news search application with debounced API calls, responsive layout, and clean component structure.",
-    technologies: ["Tailwind CSS", "React Js", "News API"],
+      "Created a fast news search app with debounced API calls and responsive design using modern React practices.",
+    technologies: ["React", "Tailwind CSS", "News API"],
     link: "https://zaid1243.github.io/news-lo/",
   },
 ];

@@ -4,7 +4,7 @@ import { MdLocationOn } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="border-b border-neutral-800 pb-16" id="contact">
+    <div className="border-b border-neutral-800 pb-16" >
       {/* HEADING */}
       <h1 className="text-center font-light text-4xl my-12">
         Contact{" "}

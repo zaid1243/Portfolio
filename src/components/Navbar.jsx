@@ -91,7 +91,7 @@ const Navbar = () => {
               size={22}
               className="text-gray-300 hover:text-blue-400"
               onClick={() =>
-                window.open("https://www.instagram.com/z4id__7", "_blank")
+                window.open("https://www.instagram.com/zaid47____", "_blank")
               }
             />
           </div>

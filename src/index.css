@@ -5,3 +5,10 @@
   font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   /* color: rgb(255, 246, 192); */
 }
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}

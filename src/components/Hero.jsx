@@ -57,7 +57,7 @@ const scrollToSection = (id) => {
         <div className="w-full lg:w-1/2 flex justify-center">
           <div className="relative group">
             {/* Glow */}
-            <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-white rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-white rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-500 pointer-events-none"></div>
 
             {/* Image Container */}
             <div className="relative w-64 sm:w-80 lg:w-96 aspect-square overflow-hidden rounded-2xl border border-gray-700 shadow-xl ">

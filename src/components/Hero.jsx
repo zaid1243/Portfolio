@@ -35,7 +35,7 @@ const scrollToSection = (id) => {
             </p>
 
             {/* CTA Buttons */}
-            <div className="mt-6 flex gap-4 flex-wrap justify-center lg:justify-start relative z-20">
+            {/* <div className="mt-6 flex gap-4 flex-wrap justify-center lg:justify-start relative z-20">
   <button
     onClick={() => scrollToSection("projects")}
     className="px-6 py-2 rounded-xl bg-gradient-to-r from-blue-500 to-white text-black font-medium shadow-lg hover:scale-105 transition duration-300"
@@ -49,7 +49,7 @@ const scrollToSection = (id) => {
   >
     Contact Me
   </button>
-</div>
+</div> */}
           </div>
         </div>
 

@@ -3,7 +3,6 @@ import image from "./../assets/Zaid.jpeg";
 
 const Hero = () => {
   const scrollToSection = (id) => {
-    console.log("ee");
     const element = document.getElementById(id);
     if (element) {
       const yOffset = -80; // adjust for navbar height
@@ -40,7 +39,6 @@ const Hero = () => {
               <button
                 onClick={(e) => {
                   scrollToSection("projects");
-                  console.log("hello", e);
                 }}
                 className="px-6 py-2 rounded-xl bg-gradient-to-r from-blue-500 to-white text-black font-medium shadow-lg hover:scale-105 transition duration-300"
               >
